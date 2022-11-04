@@ -1,8 +1,7 @@
-
-    
+import React from "react";
 
 //create your first component
-const jumbotron = () => {
+const Jumbotron = () => {
 	return (
 <section class="py-5 text-center container">
 		<div class="row py-lg-5">
@@ -19,4 +18,5 @@ const jumbotron = () => {
 	);
 };
 
-export default jumbotron;
+export default Jumbotron;
+// var in uppercase 
