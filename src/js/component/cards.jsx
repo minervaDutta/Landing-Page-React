@@ -1,4 +1,5 @@
 import React from "react";
+// TIP - Always import React
 
 //create your first component
 const Cards = () => {
