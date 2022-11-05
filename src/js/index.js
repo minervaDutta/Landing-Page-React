@@ -8,6 +8,9 @@ import "../styles/index.css";
 //import your own components
 import Jumbotron from "./component/jumbotron.jsx";
 import Cards from "./component/cards.jsx";
+import Footer from "./component/footer.jsx";
+import Navbar from "./component/navbar.jsx";
+import Footerend from "./component/footerend.jsx"
 //TIP -  Webpack expect you to import components in uppercase (var name), also remember to add the .jsx extension
 
 
@@ -19,14 +22,17 @@ const Total = () => {
    //ANYTHING IN THIS LINE IS NOT WORKING ex- <div></div> OR <Jumbotron />
    //it wants everything in a main element like a <section> or a <div>
    <div>
+        <Navbar />
         <Jumbotron/>
-        <div class="album py-5 bg-light\">
+        <div class="album py-5 bg-light\" id ="main_body">
             <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
                     <Cards /><Cards /><Cards /><Cards /><Cards /><Cards /><Cards /><Cards /><Cards />
                 </div>
             </div>
         </div>
+        <Footer />
+        <Footerend/>
     </div>
     )};
 
