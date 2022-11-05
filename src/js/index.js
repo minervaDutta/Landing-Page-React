@@ -10,7 +10,7 @@ import Jumbotron from "./component/jumbotron.jsx";
 import Cards from "./component/cards.jsx";
 import Footer from "./component/footer.jsx";
 import Navbar from "./component/navbar.jsx";
-import Footerend from "./component/footerend.jsx"
+import Footerend from "./component/footerend.jsx";
 //TIP -  Webpack expect you to import components in uppercase (var name), also remember to add the .jsx extension
 
 
